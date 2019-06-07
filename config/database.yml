@@ -1,4 +1,4 @@
-<% project_name = 'Full_Stack_cory' %>
+<% project_name = 'full-stack-cory' %>
 
 default: &default
   adapter: postgresql
