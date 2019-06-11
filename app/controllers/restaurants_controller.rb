@@ -5,7 +5,7 @@ class RestaurantsController < ProtectedController
 
   # GET /restaurants
   def index
-    @restaurants = Restaurant.all
+    @restaurants = current_user.restaurants
 
     render json: @restaurants
   end
@@ -42,7 +42,7 @@ class RestaurantsController < ProtectedController
 
   # private
 
-  # Use callbacks to sha re common setup or constraints between actions.
+  # Use callbacks to share common setup or constraints between actions.
   def set_restaurant
     @restaurant = current_user.restaurants.find(params[:id])
   end
