@@ -8,8 +8,8 @@ For those who love food and eat out A LOT but have trouble keeping track of wher
 - deployed site: https://cande04.github.io/full-stack-cory-client/
 
 ## List of Technologies
-- Rails
-- Ruby
+- Ruby on Rails
+- PostgreSQL
 
 ## Planning
 My plan for this project was to create a one to many relationship between the user and restaurants as well as a one to many relationship between a restaurant and it's dishes. I planned to use error driven development when creating the code.
